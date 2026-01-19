@@ -233,11 +233,13 @@ export default function ProductsPage() {
             }}
             disableRowSelectionOnClick
             autoHeight
+            rowHeight={70}
             sx={{
               border: 0,
               '& .MuiDataGrid-cell': {
                 borderBottom: '1px solid',
                 borderColor: 'divider',
+                py: 1,
               },
               '& .MuiDataGrid-columnHeaders': {
                 bgcolor: 'background.default',
